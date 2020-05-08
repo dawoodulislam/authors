@@ -1,0 +1,694 @@
+/*fonts start*/
+@font-face
+{
+    font-family: lobsterR;
+    src: url('../fonts/Lobster.ttf');
+}
+@font-face
+{
+    font-family: opensansR;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face
+{
+    font-family: opensansb;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face
+{
+    font-family: opensanseb;
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+}
+@font-face
+{
+    font-family: opensanssb;
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+/*fonts end*/
+/*color: #44c0c2*/
+/*rgb: 68,192,194*/
+.bg-author{ background: #44c0c2; }
+.colorf{ color: #44c0c2}
+/*2nd color #484c55;*/
+/*2nd rgb 72,76,85*/
+/*color end*/
+
+/*nav start*/
+
+.navbar-brand
+{
+    font-family: lobsterR;
+    font-size: 43px;
+    color: #44c0c2;
+}
+.nav-link
+{
+    font-family: opensansR;
+    font-size: 15px;
+    color: #484c55;
+}
+.nav-item
+{
+    margin-right: 34px;
+    border-bottom: 3px solid white;
+}
+.nav-item:last-child
+{
+    margin-right: 0;
+}
+
+.navbar-custom{
+    background-color: #fff;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(68,192,194,1);
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-text {
+    color: rgba(68,192,194,0.6);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(72,76,85,1);
+}
+
+/*toogler css*/
+.navbar-custom  .navbar-toggler {
+    color: rgba(72, 76, 85, 0.5);
+    border-color: rgba(72, 76, 85, 0.1); }
+
+.navbar-custom  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link{
+    color: #44c0c2;
+}
+.navbar-custom .nav-item:hover{
+    color: #44c0c2;
+    border-bottom: 3px solid #44c0c2;
+}
+/*nav end*/
+
+/*banner star*/
+#banner
+{
+    position: relative;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    height: 650px;
+
+}
+.light-overlay
+{
+    background: rgba(68,192,194,0.3);
+    height: 650px;
+}
+
+#banner .carousel-inner{
+
+    height: 566px;;
+}
+#banner .carousel-caption{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    /*    padding: 120px 0;*/
+    padding-top: 160px
+} 
+#banner .carousel-caption h3
+{
+    font-family: opensanssb;
+    font-size: 63px;
+}
+#banner .carousel-caption p
+{
+    font-family: opensansR;
+    font-size: 23px;
+}
+#banner .carousel-caption .btn
+{
+    width: 240px;
+    height: 60px;
+    font-family: opensanssb;
+    font-size: 26px;
+    padding: 9px 12px;
+}
+#banner .carousel-caption .btn:hover
+{
+    color: #44c0c2;
+}
+#banner .carousel-control-next
+{
+    right: -25px;
+}
+#banner .carousel-control-prev
+{
+    left: -25px;
+}
+/*banner end*/
+
+/*service start*/
+#service .circle_1st
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #44c0c2;
+    border-radius: 50%;
+}
+#service .fa
+{
+    font-size: 45px;
+    color: #44c0c2;
+}
+#service .fasize
+{
+    font-size: 40px;
+    color: #44c0c2;
+    padding-top: 6px;
+}
+#service .card h3
+{
+    font-family: opensansR;
+    font-size: 22px;
+    color: #4e525d;
+}
+#service .card p
+{
+    font-family: opensansR;
+    font-size: 14px;
+    color: #4e525d;
+}
+#service .card .btn-primary
+{
+    background-color: #44c0c2;
+    border: 0;
+}
+#service .card .btn-primary:hover
+{
+    background-color: rgba(68, 192, 194, 0.8);
+}
+#service .circle_1st:hover 
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #44c0c2;
+}
+#service .circle_1st:hover .fa
+{
+    color: white;
+}
+/*service end*/
+/*portfolio start*/
+#portfolio
+{
+    background-color: #F1F1F1;
+}
+#portfolio h1
+{
+    font-family: opensansR;
+    font-size: 42px;
+    color: #4e525d;
+}
+/*
+#portfolio img
+{
+min-height: 150px;
+}
+*/
+.btn1
+{
+    width: 180px;
+    height: 45px;
+    background-color: #44c0c2;
+    border: 0;
+    padding: 10px 12px;
+}
+.btn1:hover
+{
+    background-color: rgba(68, 192, 194, 0.8);
+}
+/*portfolio end*/
+#team h1
+{
+    font-family: opensansR;
+    font-size: 42px;
+    color: #4e525d;
+}
+#team h3
+{
+    font-family: opensansR;
+    font-size: 22px;
+    color: #4e525d;
+}
+#team h5
+{
+    font-family: opensansR;
+    font-size: 16px;
+    color: #4e525d;
+}
+#team p
+{
+    font-family: opensansR;
+    font-size: 14px;
+    color: #4e525d;
+}
+/*team start*/
+/*blog start*/
+#blog
+{
+    background-color: #F1F1F1;
+}
+#blog .card-header1
+{
+    background-color: #4e525d;
+}
+#blog .card-header2
+{
+    background-color: #49CBCD;
+}
+
+#blog .card-header1 h3
+{
+    font-family: opensansR;
+    font-size: 26px;
+    color: white;
+    /*    margin-bottom: 0;*/
+    margin-top: 7px;
+}
+#blog .card-header2 h3
+{
+    font-family: opensansR;
+    font-size: 26px;
+    color: white;
+    /*    margin-bottom: 0;*/
+    margin-top: 7px;
+}
+#blog .card-body h4
+{
+    font-family: opensansR;
+    font-size: 20px;
+    color: #485460;
+    margin-bottom: 0;
+}
+#blog .card-body p
+{
+    font-family: opensansR;
+    font-size: 14px;
+    color: #8c9299;
+    margin-bottom: 0;
+}
+#blog .card-body .btn2
+{
+    background-color: #788492;
+    border: none;
+    width: 150px;
+}
+#blog .card-body .btn3
+{
+    background-color: #49CBCD;
+    border: none;
+    width: 150px;
+}
+#blog .card, #blog .card-header
+{
+    border-radius: 0;
+}
+/*blog end*/
+/*client start*/
+#client h2
+{
+    font-family: opensansR;
+    font-size: 42px;
+    color: #4e525d;
+}
+#client .carousel-inner
+{
+    height: 250px;
+}
+#client .carousel-item
+{
+    height: 250px;
+}
+#client p
+{
+    font-family: opensansR;
+    font-size: 19px;
+    color: #4e525d;
+}
+#client h5
+{
+    font-family: opensansR;
+    font-size: 21px;
+    color: #9a8faf;
+}
+#client .carousel-caption
+{
+    width: 670px;
+}
+
+/*client end*/
+
+/*contact start*/
+#contact
+{
+    background-image: url(../img/conimg1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 570px;
+    position: relative;
+}
+#contact .dark-overlay
+{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 570px;
+}
+#contact h2
+{
+    font-family: opensansR;
+    font-size: 42px;
+}
+#contact h5
+{
+    font-family: opensansR;
+    font-size: 24px;
+    color: white;
+}
+#contact h6
+{
+    font-family: opensansR;
+    font-size: 14px;
+    color: white;
+}
+#contact p
+{
+    font-family: opensansR;
+    font-size: 14px;
+    color: #bface2;
+    margin-bottom: 0;
+}
+#contact .facebook
+{
+    width: 45px;
+    height: 45px;
+    background: #3B5997;
+    border-radius: 50%;
+}
+#contact .facebook:hover, #contact .facebook:hover .fa
+{
+    background-color: white;
+    color: #3B5997;
+
+}
+
+#contact .twitter
+{
+    width: 45px;
+    height: 45px;
+    background: #3EC2F3;
+    border-radius: 50%;
+}
+#contact .twitter:hover, #contact .twitter:hover .fa
+{
+    background-color: white;
+    color: #3EC2F3;
+
+}
+#contact .google
+{
+    width: 45px;
+    height: 45px;
+    background: #E44C41;
+    border-radius: 50%;
+}
+#contact .google:hover, #contact .google:hover .fa
+{
+    background-color: white;
+    color: #E44C41;
+
+}
+#contact .fa
+{
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#contact .twitter .fa
+{
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+#contact .google .fa
+{
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+#contact .btncon
+{
+    width: 180px;
+    height: 45px;
+    background-color: #44c0c2;
+    border: 0;
+    padding: 10px 12px;
+}
+#contact .btncon:hover
+{
+    background-color: rgba(68, 192, 194, 0.8);
+}
+/*contact end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px)
+{
+    .nav-item
+    {
+        margin-right: 0;
+    }
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link{
+        color: #44c0c2;
+    }
+    .navbar-custom .nav-item:hover{
+        border-bottom: 3px solid white;
+    }
+    #banner .carousel-caption{
+        padding-top: 130px
+    } 
+    #banner .carousel-caption h3
+    {
+        font-family: opensanssb;
+        font-size: 53px;
+    }
+    #banner .carousel-caption p
+    {
+        font-family: opensansR;
+        font-size: 18px;
+    }
+    #banner .carousel-caption .btn
+    {
+        width: 150px;
+        height: 48px;
+        font-family: opensanssb;
+        font-size: 18px;
+        padding: 9px 12px;
+    }
+    #banner .carousel-control-next
+    {
+        right: 0;
+    }
+    #banner .carousel-control-prev
+    {
+        left: 0;
+    }
+    #team img
+    {
+        width: 200px;
+        height: 200px;
+    }
+    #portfolio img
+    {
+        height: 220px;
+    }
+    #blog .card
+    {
+        width: 75%;
+    }
+    #client .carousel-caption
+    {
+        width: 340px;
+    }
+    #client .carousel-caption p
+    {
+        font-size: 16px;
+    }
+    #client .carousel-caption h5
+    {
+        font-size: 19px;
+    }
+    #contact
+    {
+        height: 910px;
+    }
+    #contact .dark-overlay
+    {
+        height: 910px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .nav-item
+    {
+        margin-right: 0;
+    }
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link{
+        color: #44c0c2;
+    }
+    .navbar-custom .nav-item:hover{
+        border-bottom: 3px solid white;
+    }
+    #banner .carousel-caption{
+        padding-top: 120px
+    } 
+    #banner .carousel-caption h3
+    {
+        font-family: opensanssb;
+        font-size: 57px;
+    }
+    #banner .carousel-caption p
+    {
+        font-family: opensansR;
+        font-size: 20px;
+    }
+    #banner .carousel-caption .btn
+    {
+        width: 200px;
+        height: 55px;
+        font-family: opensanssb;
+        font-size: 23px;
+        padding: 9px 12px;
+    }
+    #banner .carousel-control-next
+    {
+        right: 0;
+    }
+    #banner .carousel-control-prev
+    {
+        left: 0;
+    }
+    #team img
+    {
+        width: 230px;
+        height: 230px;
+    }
+    #portfolio img
+    {
+        height: 250px;
+    }
+    #blog .card
+    {
+        width: 75%;
+    }
+    #client .carousel-caption
+    {
+        width: 395px;
+    }
+    #client .carousel-caption p
+    {
+        font-size: 18px;
+    }
+    #client .carousel-caption h5
+    {
+        font-size: 20px;
+    }
+    #contact
+    {
+        height: 910px;
+    }
+    #contact .dark-overlay
+    {
+        height: 910px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .nav-item
+    {
+        margin-right: 17px;
+    }
+    #banner .carousel-caption{
+        padding-top: 150px
+    } 
+    #banner .carousel-caption h3
+    {
+        font-family: opensanssb;
+        font-size: 57px;
+    }
+    #banner .carousel-caption p
+    {
+        font-family: opensansR;
+        font-size: 20px;
+    }
+    #banner .carousel-caption .btn
+    {
+        width: 200px;
+        height: 55px;
+        font-family: opensanssb;
+        font-size: 23px;
+        padding: 9px 12px;
+    }
+    #banner .carousel-control-next
+    {
+        right: 0;
+    }
+    #banner .carousel-control-prev
+    {
+        left: 0;
+    }
+    #team img
+    {
+        width: 250px;
+        height: 250px;
+    }
+    #client .carousel-caption
+    {
+        width: 520px;
+    }
+    #contact
+    {
+        height: 590px;
+    }
+    #contact .dark-overlay
+    {
+        height: 590px;
+    }
+}
+
