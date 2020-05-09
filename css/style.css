@@ -543,15 +543,19 @@ min-height: 150px;
     }
     #client .carousel-caption
     {
-        width: 340px;
+        width: 60%;
+    }
+    #client h2
+    {
+        font-size: 23px;
     }
     #client .carousel-caption p
     {
-        font-size: 16px;
+        font-size: 14px;
     }
     #client .carousel-caption h5
     {
-        font-size: 19px;
+        font-size: 17px;
     }
     #contact
     {
